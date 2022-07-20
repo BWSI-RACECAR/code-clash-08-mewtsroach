@@ -31,9 +31,9 @@ class Solution:
         # return: int
 
         # TODO: Write code below to return a double with the solution to the prompt
-        len_1 = ((v1[0]-v2[0])**2 + (v1[0] - v2[1])**2)**1/2
-        len_2 = ((v2[0]-v3[0])**2 + (v2[0] - v3[1])**2)**1/2
-        len_3 = ((v1[0] - v3[0]) ** 2 + (v1[0] - v3[1])**2)**1 / 2
+        len_1 = ((v1[0]-v2[0])**2 + (v1[0] - v2[1])**2)**(1/2)
+        len_2 = ((v2[0]-v3[0])**2 + (v2[0] - v3[1])**2)**(1/2)
+        len_3 = ((v1[0] - v3[0]) ** 2 + (v1[0] - v3[1])**2)**(1/2)
         return len_1 + len_2 + len_3
 
 def main():
